@@ -58,7 +58,7 @@ webget(){
 	fi
 }
 #检查更新
-url_cdn="https://raw.githubusercontents.com/juewuy/ShellClash"
+url_cdn="https://ghproxy.com/https://raw.githubusercontent.com/geekyouth/ShellClash"
 [ -z "$url" ] && url=$url_cdn
 echo -----------------------------------------------
 $echo "\033[33m请选择想要安装的版本：\033[0m"	
