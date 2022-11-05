@@ -88,8 +88,8 @@ export url='https://raw.fastgit.org/juewuy/ShellClash/master' && wget -q -O /tmp
 ~**使用低版本wget（提示不支持https）安装**：<br>
 
 ```Shell
-#作者私人http源
-export url='http://shellclash.cf/' && wget -q -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
+#作者私人http源 本地部署
+export url='http://192.168.8.12:18080/' && wget -q -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
 ```
 
 ~**非root用户安装后**请额外执行以下命令以读取环境变量：<br>
