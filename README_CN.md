@@ -54,8 +54,8 @@ export url='https://raw.fastgit.org/juewuy/ShellClash/master' && sh -c "$(curl -
 ```
 
 ```shell
-#GitHub源
-export url='https://raw.githubusercontent.com/juewuy/ShellClash/master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
+#GitHub源 【推荐】
+export url='https://ghproxy.com/https://raw.githubusercontent.com/geekyouth/ShellClash/master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 ```
 
 ```shell
@@ -71,8 +71,8 @@ export url='https://shellclash.cf' && sh -c "$(curl -kfsSl $url/install.sh)" && 
 ~**使用wget安装**：<br>
 
 ```Shell
-#GitHub源
-export url='https://raw.githubusercontent.com/juewuy/ShellClash/master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
+#GitHub源 【推荐】
+export url='https://ghproxy.com/https://raw.githubusercontent.com/geekyouth/ShellClash/master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
 ```
 
 ```shell
